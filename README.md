@@ -1,6 +1,7 @@
 # CoMSCER
 
-COmparative Mutational Signature analysis on Coding and Extragenic Regions
+COmparative Mutational Signature analysis on Coding and Extragenic Regions.
+
 The tool preforms a comparison of mutational signature analysis on two given conditions.
 
 
