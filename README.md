@@ -4,7 +4,7 @@ COmparative Mutational Signature analysis on Coding and Extragenic Regions. The 
 
 Conda is required for the correct usage of the tool. All dependencies are available in the CoMSCER.yml file attached. For conda environment creation use:
 
-_conda env create -f CoMSCER.yml_
+_mamba env create -f CoMSCER.yml_
 
 _**Description:**_
 
