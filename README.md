@@ -1,6 +1,9 @@
 # CoMSCER
 
-COmparative Mutational Signature analysis on Coding and Extragenic Regions. The tool preforms a comparison of mutational signature analysis on two given conditions.
+COmparative Mutational Signature analysis on Coding and Extragenic Regions. The tool preforms a comparison of mutational signature analysis on two given conditions using different tools, reference datases and genomic coding types.
+
+AIM
+Given 2 conditions and the mutation matrix, the tool allows the identification of the best workflow for mutational signature analysis based on technical and biological readouts.
 
 Conda is required for the correct usage of the tool. All dependencies are available in the CoMSCER.yml file attached. For conda environment creation use:
 
