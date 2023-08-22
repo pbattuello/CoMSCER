@@ -10,6 +10,8 @@ _**Requirement:**_
 
 Conda is required for the correct usage of the tool. All dependencies are available in the CoMSCER.yml file attached. For conda environment creation use:
 
+_conda env create -f CoMSCER.yml_
+_OR
 _mamba env create -f CoMSCER.yml_
 
 _**Description:**_
@@ -40,6 +42,7 @@ Here is an example of the imput matrix:
 It contains the sample name, chromosome, 1 based position, reference genome (in the current version only GRCh38 is available, further reference genomes will be available in the next update), reference base, altered base, coding or non_coding.
 
 Current version of the tool is able to evaluate Cosmic v2 and Cosmic v3.2 mutational signatures. Further datasets and custom signatures analysis will be available in the next release. 
+CoMSCER does not check if the mutations are coding or not coding but its evaluation is only based on the input file.
 
 Example of command:
 
@@ -55,7 +58,7 @@ _**Output:**_
 
 In the output_dir you will find three directories:
    1. **SBS_signature_contributions**: in this this directory you will find all the relative signature contributions for each matrix given in input. Specific results for each tool and reference datasets will be present.
-   2. **Cosine_Similarity**: in this  directory you will find all the cosisine similarity values for matrix given in input. Specific results for each tool and reference datasets will be present.
+   2. **Cosine_Similarity**: in this  directory you will find all the cosine similarity values for matrix given in input. Specific results for each tool and reference datasets will be present.
    3. **Figures**: in this directory four plots will be present showing signature contributions and cosine similarity for each reference datasets.
    4. **data**: in this directory you will find the initial mutational matrixes, and a folder "_logs_" containing all log and error files of the pipeline.
 
