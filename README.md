@@ -4,7 +4,7 @@ COmparative Mutational Signature analysis on Coding and Extragenic Regions. The 
 
 **_AIM:_**
 
-Given 2 conditions and the mutation matrix, the tool allows the identification of the best workflow for mutational signature analysis based on technical and biological readouts.
+Given conditions and a set of SBS signatures, the tool allows the identification of the best workflow for mutational signature analysis based on technical and biological readouts.
 
 _**Requirement:**_
 
@@ -36,8 +36,7 @@ The tool takes as input two tab separated matrices of the two conditions to comp
 Here is an example of the input matrix: 
 
 
-
-<img width="914" alt="Screenshot 2023-08-02 at 11 15 20" src="https://github.com/pbattuello/CoMSCER/assets/108470251/b9402db9-43ac-4d9e-aaa4-ce3175e696cf">
+<img width="914" alt="Screenshot 2023-08-02 at 11 15 20" src="https://github.com/pbattuello/CoMSCER/assets/108470251/d9ca3a6d-be34-422b-8de5-bcd04ef56452">
 
 
 
