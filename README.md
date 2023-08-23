@@ -4,17 +4,17 @@ COmparative Mutational Signature analysis on Coding and Extragenic Regions. The 
 
 **_AIM:_**
 
-Given conditions and a set of SBS signatures, the tool allows the identification of the best workflow for mutational signature analysis based on technical and biological readouts.
+Given two conditions and a set of SBS signatures, the tool allows the identification of the best workflow for mutational signature analysis based on technical and biological readouts.
 
 _**Requirement:**_
 
-Conda is required for the correct usage of the tool. All dependencies are available in the CoMSCER.yml file attached. For conda environment creation use:
+Conda is required for the correct usage of the tool. All dependencies are available in the CoMSCER-env.yml file attached. For conda environment creation use:
 
-_conda env create -f CoMSCER.yml_
+_conda env create -f CoMSCER-env.yml_
 
 _OR_
 
-_mamba env create -f CoMSCER.yml_
+_mamba env create -f CoMSCER-env.yml_
 
 _**Description:**_
 
@@ -30,7 +30,7 @@ After having downloaded the folder "CoMSCER" do the folloging commands:
   
 **_Input:_**
 
-The tool takes as input two tab separated matrices of the two conditions to compare. 
+The tool takes as input two tab separated matrices representing the two conditions to compare. 
 
 
 Here is an example of the input matrix: 
@@ -40,10 +40,11 @@ Here is an example of the input matrix:
 
 
 
-It contains the sample name, chromosome, 1 based position, reference genome (in the current version only GRCh38 is available, further reference genomes will be available in the next update), reference base, altered base, coding or non_coding.
+It contains the sample name, chromosome, 1-based position, reference genome (in the current version only GRCh38 is available, further reference genomes will be available in the next update), reference base, altered base, coding or non_coding.
 
 Current version of the tool is able to evaluate Cosmic v2 and Cosmic v3.2 mutational signatures. Further datasets and custom signatures analysis will be available in the next release. 
-CoMSCER does not check if the mutations are coding or not coding but its evaluation is only based on the input file.
+
+Be careful that CoMSCER does not check if the mutations are coding or not coding but its evaluation is only based on the input file annotation.
 
 Example of command:
 
