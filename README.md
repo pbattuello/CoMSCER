@@ -16,9 +16,6 @@ _OR_
 
 _mamba env create -f CoMSCER-env.yml_
 
-_**Description:**_
-
-<img width="832" alt="Screenshot 2023-08-02 at 13 49 00" src="https://github.com/pbattuello/CoMSCER/assets/108470251/8b4d6037-7718-4ba9-b4a7-28dbf6c6c082">
 
 **_Installation:_**
 
