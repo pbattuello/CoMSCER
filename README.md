@@ -33,7 +33,7 @@ After having downloaded the folder "CoMSCER" do the folloging commands:
 The tool takes as input two tab separated matrices of the two conditions to compare. 
 
 
-Here is an example of the imput matrix: 
+Here is an example of the input matrix: 
 
 
 
