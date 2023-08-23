@@ -2,7 +2,7 @@
 
 COmparative Mutational Signature analysis on Coding and Extragenic Regions. The tool preforms a comparison of mutational signature analysis on two given conditions using different tools, reference datases and genomic coding types.
 
-**_AIM:_**
+**_Aim:_**
 
 Given two conditions and a set of SBS signatures, the tool allows the identification of the best workflow for mutational signature analysis based on technical and biological readouts.
 
