@@ -37,7 +37,7 @@ Here is an example of the input matrix:
 
 
 
-It contains the sample name, chromosome, 1-based position, reference genome (in the current version only GRCh38 is available, further reference genomes will be available in the next update), reference base, altered base, coding or non_coding.
+It contains the sample name, chromosome, 1-based position, reference genome (in the current version both GRCh37 and GRCh38 are available), reference base, altered base, coding or non_coding.
 
 Current version of the tool is able to evaluate Cosmic v2 and Cosmic v3.2 mutational signatures. Further datasets and custom signatures analysis will be available in the next release. 
 
@@ -47,11 +47,11 @@ Example of command:
 
 _Syntax:_
 
-./mutational_signature_benchmark_tool.sh matrix1 matrix2 output_dir SBS_cosmic_v2 SBS_cosmic_v3.2
+./mutational_signature_benchmark_tool.sh matrix1 matrix2 output_dir SBS_cosmic_v2 SBS_cosmic_v3.2 1
 
 _Example:_
 
-./mutational_signature_benchmark_tool.sh matrix1 matrix2 /storage/test/signatures_result SBS5,SBS6,SBS7 SBS5,SBS6,SBS7a,SBS7b
+./mutational_signature_benchmark_tool.sh matrix1 matrix2 /storage/test/signatures_result SBS5,SBS6,SBS7 SBS5,SBS6,SBS7a,SBS7b 1
 
 _**Output:**_
 
