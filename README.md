@@ -47,11 +47,11 @@ Example of command:
 
 _Syntax:_
 
-./mutational_signature_benchmark_tool.sh matrix1 matrix2 output_dir SBS_cosmic_v2 SBS_cosmic_v3.2 1
+./CoMSCER.sh matrix1 matrix2 output_dir SBS_cosmic_v2 SBS_cosmic_v3.2 1
 
 _Example:_
 
-./mutational_signature_benchmark_tool.sh matrix1 matrix2 /storage/test/signatures_result SBS5,SBS6,SBS7 SBS5,SBS6,SBS7a,SBS7b 1
+./CoMSCER.sh matrix1 matrix2 /storage/test/signatures_result SBS5,SBS6,SBS7 SBS5,SBS6,SBS7a,SBS7b 1
 
 _**Output:**_
 
